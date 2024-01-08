@@ -12,7 +12,7 @@ export default function MovieCard({ movie }) {
   return (
     <>
       <div
-        className="w-[280px] mx-6 max-[688px]:w-[200px] max-[568px]:flex-grow  max-[1032px]:w-[270px] max-[1002px]:w-[260px] shadow-xl rounded-lg hover:scale-105 transition-transform duration-300"
+        className="w-[280px] mx-6 max-[688px]:w-[200px] max-[568px]:flex-grow  max-[1032px]:w-[270px] max-[1002px]:w-[260px] shadow-xl rounded-lg hover:scale-105 transition-transform duration-300 lg:w-[270px] lg:justify-evenly"
         onClick={handleMovieClick}
       >
         <div className="absolute bg-[#0b1452] w-12 rounded-lg">
